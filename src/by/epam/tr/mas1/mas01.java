@@ -5,7 +5,7 @@ import java.util.Random;
 public class mas01 {
 
 	public static void main(String[] args) {
-		//  В массив A [N] занесены натуральные числа. Найти сумму тех элементов, которые кратны данному К.
+		// Р’ РјР°СЃСЃРёРІ A [N] Р·Р°РЅРµСЃРµРЅС‹ РЅР°С‚СѓСЂР°Р»СЊРЅС‹Рµ С‡РёСЃР»Р°. РќР°Р№С‚Рё СЃСѓРјРјСѓ С‚РµС… СЌР»РµРјРµРЅС‚РѕРІ, РєРѕС‚РѕСЂС‹Рµ РєСЂР°С‚РЅС‹ РґР°РЅРЅРѕРјСѓ Рљ. .
 		
 			int n = 10;
 			int [] mas = new int[n];
@@ -14,7 +14,7 @@ public class mas01 {
 				   mas[i] = rand.nextInt(100);
 			 }
 			   
-			System.out.print("Исходный массив:\t\t ");
+			System.out.print("РСЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ:\t\t ");
 			   for (int i = 0; i < mas.length; i++) {
 			System.out.printf("%4d ", mas[i]);
 			
