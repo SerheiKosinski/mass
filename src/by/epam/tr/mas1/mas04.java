@@ -5,7 +5,7 @@ import java.util.Random;
 public class mas04 {
 
 	public static void main(String[] args) {
-		// Дана последовательность действительных чисел а1 а2 ,..., аn . Выяснить, будет ли она возрастающей.
+		// Р”Р°РЅР° РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹С… С‡РёСЃРµР» Р°1 Р°2 ,..., Р°n . Р’С‹СЏСЃРЅРёС‚СЊ, Р±СѓРґРµС‚ Р»Рё РѕРЅР° РІРѕР·СЂР°СЃС‚Р°СЋС‰РµР№.
 		
 		int n = 10;
 		int [] mas = new int[n];
@@ -14,7 +14,7 @@ public class mas04 {
 			   mas[i] = rand.nextInt(100);
 		 }
 		   
-		System.out.print("Исходный массив:\t\t ");
+		System.out.print("РСЃС…РѕРґРЅС‹Р№ РјР°СЃСЃРёРІ:\t\t ");
 		   for (int i = 0; i < mas.length; i++) {
 		System.out.printf("%4d ", mas[i]);
 		
@@ -36,9 +36,9 @@ public class mas04 {
 		       }
 		   
 		   if (c == n) {
-			   System.out.println("возрастает ");
+			   System.out.println("РІРѕР·СЂР°СЃС‚Р°РµС‚ ");
 		   }else {
-			   System.out.println("не возрастает ");
+			   System.out.println("РЅРµ РІРѕР·СЂР°СЃС‚Р°РµС‚ ");
 		  
 		   }
 		 	   
