@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class mass09 {
 
 	public static void main(String[] args) {
-		// Даны действительные числа а1 ,а2 ,..., аn . Поменять местами наибольший и наименьший элементы.
+		// Р”Р°РЅС‹ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹Рµ С‡РёСЃР»Р° Р°1 ,Р°2 ,..., Р°n . РџРѕРјРµРЅСЏС‚СЊ РјРµСЃС‚Р°РјРё РЅР°РёР±РѕР»СЊС€РёР№ Рё РЅР°РёРјРµРЅСЊС€РёР№ СЌР»РµРјРµРЅС‚С‹.
 		Scanner sc = new Scanner(System.in);
-		   System.out.print("Введите количество элементов массива");
+		   System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°");
 		   
 		int n = sc.nextInt();
 		int mas[] = new int[n];
@@ -51,7 +51,7 @@ public class mass09 {
 	}
 		
 		
-		System.out.println("Результат");
+		System.out.println("Р РµР·СѓР»СЊС‚Р°С‚");
 		////////////////////////
 		k=mas[q];
 		mas[q]=mas[w];
